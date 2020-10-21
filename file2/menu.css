@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/image/178339.jpg);
+    background-size: cover;
+    
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.menu{
+    background:#0055;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 10px;
+
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+   
+}
+.menu ul li{
+    width: 450px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 60px;
+    
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0,0);
+    
+}
+.active, .menu ul li:hover{
+    background: #ffffff;
+    border-radius: 2px;
+}
+
+.menu-sub1{
+    display: none;
+}
+.menu ul li:hover .menu-sub1{
+     display: block;
+     position: absolute;
+     margin-top:20px;
+     margin-left: -20px;
+     margin-right: -20px;
+    text-align: left;
+     background:#0055;
+}
+.menu ul li:hover .menu-sub1 ul{
+    display: block;
+}
+.menu ul li:hover .menu-sub1 ul li:hover{
+    background:  #ffffff;
+    cursor: pointer;
+    
+    
+}
+.fa-angle-right{
+    float: right;
+}
+.menu-sub2{
+    display: none;
+}
+.list:hover .menu-sub2{
+    display: block;
+    position: absolute;
+    margin-top:-80px;
+    margin-left: 475px;
+    margin-right: -50px;
+    width: 600px;
+    
+    text-align: left;
+    background:#0055;
+}
+.list:hover .menu-sub2 ul li:hover{
+    background:  #ffffff;
+    cursor: pointer;
+    
+    
+}
+.list:hover .menu-sub2 a{
+
+    margin-left: 50px;
+}
+.section{
+    width: 70%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    
+}
+.section h1{
+    font-size: 200px;
+    
+}
+.section p{
+    font-size: 60px;
+    position: absolute;
+    font-weight: 500;
+    left: 300px;
+    width: 60%;
+}
