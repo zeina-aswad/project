@@ -1,0 +1,175 @@
+body{
+padding: 0;
+margin:0;
+background-image: url(/image/film-slr-photo-camera-spare-lenses-blue-yellow-background-132989610.jpg);
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+.nav1{
+    width: 100%;
+    height:150px;
+    display: flex;
+    position: absolute;
+    left: 70%;
+    align-items: center;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 80px;
+    
+}
+ a{
+    text-decoration: none;
+    color: #fff;
+    
+    font-size: 60px;
+    padding: 100px;
+
+}
+a:hover{
+    color: #347ebb;
+}
+.loginbox{
+    width: 900px;
+    height: 1200px;
+    background: #000;
+    color: #fff;
+    top: 15%;
+    left:60%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    left:30% ;
+    top: 5px;
+   
+    
+}
+.loginbox h1{
+    padding-top: 300px;
+    margin: 20px 20px;
+    text-align: center;
+    font-size: 50px;
+
+}
+.loginbox p{
+    margin: 0;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.loginbox input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.loginbox  input[type="text"] , .loginbox input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 35px;
+    padding: 20px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 90px;
+    background: #347ebb;
+    font-size: 50px;
+    color: #fff;
+    border-radius: 200px;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #ffc107;
+    color: black;
+}
+.loginbox a{
+    text-decoration: none;
+   
+    font-size: 40px;
+    margin: 20px 0;
+    color: darkgrey;
+    padding: 20px;
+}
+.loginbox a:hover{
+    color:  #347ebb;
+}
+.box{
+    width: 800px;
+    height: 800px;
+  justify-content: center;
+    position: absolute;
+    top: 25%;
+    left: 80%;
+    background: #000;
+    text-align: center;
+    
+}
+.box h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 90px;
+    margin: 60px;
+
+}
+
+.box input[type="text"] , .box input[type="password"]{
+    border: 0;
+    background: none;
+    margin: 30px 150px; 
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid  #347ebb;
+    padding: 18px 14px;
+    width: 450px;
+    height: 80px;
+    outline: none;
+    display: block;
+    border-radius: 150px;
+    transition: 0.1s;
+    
+}
+.box input[type="text"]:focus , .box input[type="password"]:focus {
+    width: 550px;
+    border-color:#07ffc1 ;
+
+}
+.box input[type="submit"]{
+
+    border: 0;
+    background: none;
+    margin: 30px 250px; 
+    text-align: center;
+    font-size: 50px;
+    border: 2px solid  #07ffc1;
+    padding: 18px 14px;
+    width: 270px;
+    height: 105px;
+    outline: none;
+    display: block;
+    border-radius: 150px;
+    transition: 0.1s;
+    color: #fff;
+}
+.box input[type="submit"]:hover{
+    background:#07ffc1 ;
+}
+
